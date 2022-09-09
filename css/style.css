@@ -183,6 +183,10 @@ form#contact-form label > input{
   border: 1px solid #25C7CC;
   border-radius: calc(8 * 100vw / 1920);
 }
+form#contact-form label > input:focus {
+    border-top: 1px solid #25C7CC!important;
+    border: none;
+}
 form#contact-form label > textarea{
   width: calc(350 * 100vw / 1920);
   height: calc(89 * 100vw / 1920);
@@ -190,6 +194,10 @@ form#contact-form label > textarea{
   border: 1px solid #25C7CC;
   border-radius: calc(8 * 100vw / 1920);
   resize: none;
+}
+form#contact-form label > textarea:focus {
+    border-top: 1px solid #25C7CC!important;
+    border: none;
 }
 form#contact-form label.message{
   margin-bottom: calc(21 * 100vw / 1920);
